@@ -1,0 +1,36 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Golos, Arial, sans-serif;
+  background-color: #f6f8f9;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #eee;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.header__title {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+
+.logo__container {
+  width: 144px;
+  margin-right: 50px;
+}
+
+.logo__link {
+  width: 144px;
+  height: 20px;
+  display: block;
+  background-image: url("../img/logo-color-text_6748e2.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
